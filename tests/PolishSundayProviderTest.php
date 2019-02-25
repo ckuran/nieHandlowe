@@ -3,7 +3,7 @@
 use ckuran\PolishSundayProvider;
 use PHPUnit\Framework\TestCase;
 
-class SundayProviderTest extends TestCase
+class PolishSundayProviderTest extends TestCase
 {
     public function testBasics()
     {
