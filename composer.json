@@ -1,0 +1,23 @@
+{
+    "name": "ckuran/nie-handlowe",
+    "license": "MIT",
+    "description": "PHP lib to provide dates when shops are open in Poland",
+    "type": "library",
+    "authors": [{
+        "name": "ckuran",
+        "email": "c@kuran.pl"
+    }],
+    "require": {
+        "php": ">=5.6, <=7.3.2",
+        "symfony/yaml": ">=3.4, <=4.2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "ckuran\\": "src/"
+        }
+    },
+    "require-dev": {
+        "symfony/dotenv": "^3.4",
+        "phpunit/phpunit": "^5.7"
+    }
+}
