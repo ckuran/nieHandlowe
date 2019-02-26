@@ -17,12 +17,12 @@ class PolishSundayProvider
         $this->timezone = new \DateTimeZone('UTC');
     }
 
-    public function isNonTradeable(\DateTimeInterface $date)
+    public function isTradeable(\DateTimeInterface $date)
     {
         if ($this->today != $date) {
             $date = new \DateTimeImmutable($date->format('Y-m-d'), $this->timezone);
         }
 
-        return in_array($date, $this->data,  false);
+        return in_array($date, $this->data, false);
     }
 }
