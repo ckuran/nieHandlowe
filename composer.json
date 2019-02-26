@@ -1,5 +1,5 @@
 {
-    "name": "ckuran/nie-handlowe",
+    "name": "ckuran/niehandlowe",
     "license": "MIT",
     "description": "PHP lib to provide dates when shops are open in Poland",
     "type": "library",
